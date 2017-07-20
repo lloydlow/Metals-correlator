@@ -9,10 +9,6 @@ fluidPage(
   # Application title
   titlePanel("Metals correlation"),
   
-  # Sidebar with controls to provide a caption, select a dataset,
-  # and specify the number of observations to view. Note that
-  # changes made to the caption in the textInput control are
-  # updated in the output area immediately as you type
   sidebarLayout(
     sidebarPanel(
       textInput("caption", "Caption:", "Metals weekly correlation"),

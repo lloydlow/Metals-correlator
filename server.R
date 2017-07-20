@@ -10,7 +10,7 @@ function(input, output) {
     input$caption
   })
   
-  # By declaring metal1Input as a reactive expression we ensure 
+  # By declaring metal1Input and metal2Input as a reactive expression we ensure 
   # that:
   #
   #  1) It is only called when the inputs it depends on changes
